@@ -1,15 +1,8 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "+";
+
 client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
-    console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Death Shop`,"http://twitch.tv/Death Shop")
-client.user.setStatus("dnd")
 });
 
 client.on('message', msg => {
@@ -923,7 +916,7 @@ var Sra7a = [
   'صراحه  |  إذا حاول شخص ما أن يكرهه أن يقترب منك ويهتم بك تعطيه فرصة؟',
   'صراحه  |  أشجع شيء حلو في حياتك؟',
   'صراحه  |  طريقة جيدة يقنع حتى لو كانت الفكرة خاطئة" توافق؟',
-  'صراحه  |  كيف ت��صرف مع من يسيئون فهمك ويأخذ على ذهنه ثم ينتظر أن يرفض؟',
+  'صراحه  |  كيف ت��صرف مع من يسيئو�� فهمك ويأخذ على ذهنه ثم ينتظر أن يرفض؟',
   'صراحه  |  التغيير العادي عندما يكون الشخص الذي يحبه؟',
   'صراحه  |  المواقف الصعبة تضعف لك ولا ترفع؟',
   'صراحه  |  نظرة و يفسد الصداقة؟',
@@ -961,7 +954,7 @@ var Sra7a = [
   '‏صراحه | هل تحب عائلتك ام تكرههم؟',
   '‏صراحه  |  من هو الشخص الذي يأتي في قلبك بعد الله – سبحانه وتعالى- ورسوله الكريم – صلى الله عليه وسلم؟',
   '‏صراحه  |  هل خجلت من نفسك من ق��ل؟',
-  '‏صراحه  |  ما هو ا الحل��  الذي لم تستطيع ان تحققه؟',
+  '‏صراحه  |  ما ه�� ا الح����  الذي لم تستطيع ان تحققه؟',
   '‏صراحه  |  ما هو الشخص الذي تحلم به كل ليلة؟',
   '‏صراحه  |  هل تعرضت إلى موقف مُحرج جعلك تكره صاحبهُ؟',
    '‏صراحه  |  هل قمت بالبكاء أمام من تُحب؟',
@@ -1373,7 +1366,6 @@ client.on('message', message => {
       message.author.sendEmbed(Embed11)
     }
 });
-
 
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
